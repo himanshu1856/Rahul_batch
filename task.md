@@ -1,3 +1,0 @@
-[]Help
-[]Organize
-[]Tree

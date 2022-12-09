@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+}
+
+#profile-pic {
+    height: 300px;
+    width: 300px;
+    border-radius: 1rem;
+    margin: 20px;
+}
+
+#intro {
+    background-color: #495579;
+    text-align: center;
+    padding: 1rem;
+}
+
+#social-media a > img {
+    height: 32px;
+    width: 32px;
+    margin-right: 10px;
+}
+
+#social-media {
+    margin: 18px;
+}
+
+.section {
+    background-color: #E6DDC4;
+    /* border: 1px solid red; */
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.section > h2{
+    text-align: center;
+    margin: .5rem;
+    color: #495579;
+    text-decoration: underline;
+}
+
+form{
+    margin: 1rem;
+    border: 1px solid;
+}
