@@ -36,14 +36,38 @@
     border-radius: 1rem;
 }
 
-.section > h2{
+.section > h2 {
     text-align: center;
     margin: .5rem;
     color: #495579;
     text-decoration: underline;
 }
 
-form{
-    margin: 1rem;
+#hobbies > ol {
+    list-style: inside url("https://cdn-icons-png.flaticon.com/512/1356/1356479.png");
+}
+
+form {
+    padding: 1rem;
+    margin: auto ;
+    margin-bottom: 1rem;
+    width: fit-content;
     border: 1px solid;
+    border-radius: 1rem;
+    /* text-align: center; */
+}
+
+form > * {
+    margin: .5rem;
+    /* display: block; */
+}
+
+#dynamic-text {
+    background-color: white;
+    color: black;
+    height: 3rem;
+    width: 16rem;
+    padding: .3rem;
+    display: block;
+    margin: 1rem auto;
 }
