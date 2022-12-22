@@ -7,7 +7,7 @@ function handlePrint(text){
     content += char
     dynamicSpan.textContent = content
     index++
-    setTimeout(handlePrint,300,text)
+    setTimeout(handlePrint,200,text)
 }
 
 // index = 15
@@ -15,8 +15,9 @@ function handlePrint(text){
 
 function handleDelete(){
     if(index == -1){
-        arrayIdx++
         index = 0
+        content = ''
+        arrayIdx++
         iterateOverArray()
         return
     }
@@ -24,24 +25,22 @@ function handleDelete(){
     let ss = content.substring(0,index-1)
     content = ss
     dynamicSpan.textContent = content
-    setTimeout(handleDelete,300)
+    setTimeout(handleDelete,200)
 }
 
 function iterateOverArray(){
     if(arrayIdx == phrases.length){
-        arrayIdx = 0
+        return
     }
     let text = phrases[arrayIdx]
     handlePrint(text)
 }
 
-
 const dynamicSpan = document.querySelector("#dynamic-text")
 
-const phrases = ["I am a CS student...","I am Software Engineer"]
+const phrases = ["A CS student...","A Software Engineer..."]
+
 let index = 0
-let arrayIdx = 0
 let content = ''
-
+let arrayIdx = 0
 iterateOverArray()
-
