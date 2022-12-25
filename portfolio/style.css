@@ -41,6 +41,7 @@
     margin: .5rem;
     color: #495579;
     text-decoration: underline;
+    font-family: 'Quicksand', sans-serif;
 }
 
 #hobbies > ol {
@@ -57,7 +58,12 @@ form {
     /* text-align: center; */
 }
 
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
 form > * {
+    font-family: 'Roboto', sans-serif;
     margin: .5rem;
     /* display: block; */
 }
@@ -70,4 +76,17 @@ form > * {
     padding: .3rem;
     display: block;
     margin: 1rem auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li,a{
+    color :beige;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.5rem;
+    font-family: 'Unbounded', cursive;
 }
